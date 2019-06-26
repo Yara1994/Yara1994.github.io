@@ -1,0 +1,48 @@
+
+body {
+
+    text-align: center;
+    background-color: #DCDCDC;
+}
+
+.header {
+
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400%
+
+}
+
+.images {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding:1px;
+    border:2px solid black;
+    
+}
+
+.links {
+
+    float: right;
+    margin-right: 20%;
+    margin-top: -15%;
+    text-align: left;
+    font-size: 125%;
+    border-style: outset;
+    background-color: #D3D3D3
+}
+
+.description {
+
+    float: left;
+    margin-left: 10%;
+    margin-top: -20%;
+    text-align: center;
+    width: 500px;
+    font-size: 125%;
+    border-style: outset;
+    background-color: #D3D3D3
+}
