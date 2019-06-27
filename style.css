@@ -24,25 +24,40 @@ body {
     
 }
 
-.links {
-
-    float: right;
-    margin-right: 20%;
-    margin-top: -15%;
-    text-align: left;
-    font-size: 125%;
-    border-style: outset;
-    background-color: #D3D3D3
-}
-
 .description {
 
     float: left;
-    margin-left: 10%;
-    margin-top: -20%;
+    margin-left: 9.75%;
+    margin-top: -22.5%;
     text-align: center;
-    width: 500px;
+    width: 525px;
     font-size: 125%;
     border-style: outset;
     background-color: #D3D3D3
 }
+
+.links {
+
+    float: right;
+    margin-right: 19%;
+    margin-top: -22%;
+    text-align: left;
+    font-size: 125%;
+    border-style: outset;
+    background-color: #D3D3D3;
+    width: 350px
+}
+
+.hobbies {
+
+    float: right;
+    margin-right: 19%;
+    margin-top: -11.5%;
+    text-align: left;
+    font-size: 125%;
+    border-style: outset;
+    background-color: #D3D3D3;
+    width: 350px
+    
+}
+
