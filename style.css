@@ -92,7 +92,7 @@ body {
 
 /*---------------------------About---------------------------*/
 
-.about {
+/* .about {
 
     padding-top: 100px;
     margin-bottom: -130px;
@@ -107,7 +107,48 @@ body {
 .profile-img {
 
     height: 700px
+} */
+
+
+
+
+
+.about {
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
+
+.about h3 {
+    text-align: center;
+}
+
+.profile-img {
+    max-width: 100%; /* Ensure the image scales down with the container */
+    height: auto; /* Allow the image to maintain its aspect ratio */
+    display: block; /* Ensures proper alignment within the column */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Adjust the layout for smaller screens (phones) */
+@media (max-width: 768px) {
+    .about {
+        padding-top: 50px;
+    }
+    
+    .profile-img {
+        height: auto;
+        max-width: 90%; /* Reduce the maximum width for better fit */
+        margin-bottom: 20px; /* Add some spacing between image and text */
+    }
+}
+
+
+
+
+
+
+
+
 
 .nav-bar {
 
